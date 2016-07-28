@@ -1,0 +1,113 @@
+1447938614423	Sync.Service	INFO	Loading Weave 1.33.0
+1447938614425	Sync.Engine.Clients	DEBUG	Engine initialized
+1447938614426	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1447938614430	Sync.Engine.Bookmarks	DEBUG	Engine initialized
+1447938614433	Sync.Engine.Forms	DEBUG	Engine initialized
+1447938614436	Sync.Engine.History	DEBUG	Engine initialized
+1447938614439	Sync.Engine.Passwords	DEBUG	Engine initialized
+1447938614441	Sync.Engine.Prefs	DEBUG	Engine initialized
+1447938614444	Sync.Engine.Tabs	DEBUG	Engine initialized
+1447938614445	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1447938614449	Sync.Engine.Addons	DEBUG	Engine initialized
+1447938614450	Sync.Service	INFO	Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.6.0
+1447938614452	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1447938614454	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447938614454	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/
+1447938614454	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447938614454	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1447938614454	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1447938614455	Sync.Tracker.History	INFO	Adding Places observer.
+1447938614471	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447938614472	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447938614480	FirefoxAccounts	DEBUG	got keyPair
+1447938614481	FirefoxAccounts	DEBUG	getCertificateSigned: true true
+1447938616276	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1447938625298	FirefoxAccounts	DEBUG	(Response) /certificate/sign: code: 200 - Status text: OK
+1447938625298	FirefoxAccounts	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 3702
+1447938625312	FirefoxAccounts	DEBUG	getCertificate got a new one: true
+1447938625313	FirefoxAccounts	DEBUG	getAssertionFromCert
+1447938625321	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1447938625322	Sync.BrowserIDManager	DEBUG	Getting a token
+1447938625472	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447938625472	Sync.SyncScheduler	DEBUG	Next sync in 3590528 ms.
+1447938630328	Sync.BrowserIDManager	DEBUG	Successfully got a sync token
+1447938630329	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1447938630329	Sync.BrowserIDManager	INFO	Background fetch for key bundle done
+1447938630329	Sync.Status	DEBUG	Status.login: success.login => success.login
+1447938630329	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447938650375	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447938654045	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447938886177	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447938904094	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447938959769	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939004235	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939049827	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939094209	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939109171	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939111927	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939152799	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939157827	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939161561	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939170745	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939174566	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939176426	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939186400	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939201550	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939216475	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939229056	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447939232164	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939255207	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939326564	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939332594	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939333600	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939336105	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939339705	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939354531	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939361992	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939366285	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939380162	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939383906	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939386672	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939398823	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447939416251	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940317333	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940321951	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940330894	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940333023	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940356559	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940357730	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940366695	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940424894	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940433118	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940436073	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940448304	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940455166	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940470711	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940531607	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940601221	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940605763	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940702305	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940764484	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940817932	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447940854780	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1447942216001	Sync.Service	DEBUG	User-Agent: Iceweasel/31.6.0 FxSync/1.33.0.20150401055643.
+1447942216001	Sync.Service	INFO	Starting sync at 2015-11-19 22:10:16
+1447942216002	Sync.Service	DEBUG	In sync: should login.
+1447942216002	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447942216002	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1447942216003	Sync.Service	INFO	Logging in the user.
+1447942216003	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/
+1447942216004	Sync.BrowserIDManager	INFO	Fetching assertion and token from: https://token.services.mozilla.com/1.0/sync/1.5
+1447942216004	FirefoxAccounts	DEBUG	already verified
+1447942216005	Sync.BrowserIDManager	DEBUG	Getting an assertion
+1447942216005	FirefoxAccounts	DEBUG	enter getAssertion()
+1447942216006	FirefoxAccounts	DEBUG	getKeyPair: already have a keyPair
+1447942216007	FirefoxAccounts	DEBUG	 getCertificate already had one
+1447942216007	FirefoxAccounts	DEBUG	getAssertionFromCert
+1447942216008	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1447942216008	Sync.BrowserIDManager	DEBUG	Getting a token
+1447942228083	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: Client error.
+1447942228084	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1447942228084	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1447942228084	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1447942228085	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

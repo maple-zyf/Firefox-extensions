@@ -1,0 +1,27 @@
+1467864294934	Sync.Tracker.Addons	DEBUG	Saving changed IDs to addons
+1467864294938	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1467864294939	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467864316303	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467864319470	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467864328947	Sync.Tracker.Bookmarks	DEBUG	Saving changed IDs to bookmarks
+1467867894625	Sync.Service	DEBUG	User-Agent: Iceweasel/38.8.0 FxSync/1.40.0.20160426225641.
+1467867894625	Sync.Service	INFO	Starting sync at 2016-07-07 13:04:54
+1467867894627	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1467867894628	Sync.Status	INFO	Resetting Status.
+1467867894629	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1467867894631	FirefoxAccounts	DEBUG	already verified
+1467867894633	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1467867894633	FirefoxAccounts	DEBUG	enter getAssertion()
+1467867894647	FirefoxAccounts	DEBUG	getKeyPair: already have a keyPair
+1467867894648	FirefoxAccounts	DEBUG	 getCertificate already had one
+1467867894648	FirefoxAccounts	DEBUG	getAssertionFromCert
+1467867894651	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1467867894651	Sync.BrowserIDManager	DEBUG	Getting a token
+1467867894653	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1467867895489	Common.TokenServerClient	DEBUG	Got token response: 200
+1467867895489	Sync.RESTResponse	TRACE	Processing response headers.
+1467867895489	Common.TokenServerClient	DEBUG	Successful token response
+1467867895490	Sync.BrowserIDManager	DEBUG	Successfully got a sync token
+1467868195494	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1467868195494	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1467868195496	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

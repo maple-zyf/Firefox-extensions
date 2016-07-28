@@ -1,0 +1,49 @@
+1467777851450	Sync.Tracker.Bookmarks	DEBUG	Saving changed IDs to bookmarks
+1467777851495	Sync.Tracker.Addons	DEBUG	Saving changed IDs to addons
+1467777851498	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1467777851501	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467777932826	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467777954691	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467777958559	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467778020857	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467778637022	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467778687848	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467779022739	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467779025499	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467779029506	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467779040063	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467779049392	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467779146297	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467779150682	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467781048172	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467781051866	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467781156755	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467781169774	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467781179422	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467781192105	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467781451206	Sync.Service	DEBUG	User-Agent: Iceweasel/38.8.0 FxSync/1.40.0.20160426225641.
+1467781451206	Sync.Service	INFO	Starting sync at 2016-07-06 13:04:11
+1467781451209	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1467781451211	Sync.Status	INFO	Resetting Status.
+1467781451211	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1467781451213	FirefoxAccounts	DEBUG	already verified
+1467781451216	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1467781451216	FirefoxAccounts	DEBUG	enter getAssertion()
+1467781451226	FirefoxAccounts	DEBUG	getKeyPair: already have a keyPair
+1467781451226	FirefoxAccounts	DEBUG	 getCertificate already had one
+1467781451227	FirefoxAccounts	DEBUG	getAssertionFromCert
+1467781451229	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1467781451230	Sync.BrowserIDManager	DEBUG	Getting a token
+1467781451232	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1467781517421	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}}) (resource://gre/modules/services-common/tokenserverclient.js:36:35) JS Stack trace: @tokenserverclient.js:36:36 < @browserid_identity.js:14:1 < @status.js:15:1 < SyncServiceObserver.init@sync.js:76:62 < @sync.js:485:1 < require@bootstrap.js:140:7 < @main.js:32:1 < require@bootstrap.js:140:7 < startup@bootstrap.js:24:3 < XPI_callBootstrapMethod@XPIProvider.jsm:4453:9 < XPI_startup@XPIProvider.jsm:2168:13 < callProvider@AddonManager.jsm:208:12 < _startProvider@AddonManager.jsm:794:5 < AMI_startup@AddonManager.jsm:962:9 < AMP_startup@AddonManager.jsm:2626:5 < AMC_observe@addonManager.js:58:7
+1467781517423	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1467781517423	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1467781517472	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}}) (resource://gre/modules/services-common/tokenserverclient.js:36:35) JS Stack trace: @tokenserverclient.js:36:36 < @browserid_identity.js:14:1 < @status.js:15:1 < SyncServiceObserver.init@sync.js:76:62 < @sync.js:485:1 < require@bootstrap.js:140:7 < @main.js:32:1 < require@bootstrap.js:140:7 < startup@bootstrap.js:24:3 < XPI_callBootstrapMethod@XPIProvider.jsm:4453:9 < XPI_startup@XPIProvider.jsm:2168:13 < callProvider@AddonManager.jsm:208:12 < _startProvider@AddonManager.jsm:794:5 < AMI_startup@AddonManager.jsm:962:9 < AMP_startup@AddonManager.jsm:2626:5 < AMC_observe@addonManager.js:58:7
+1467781518719	Sync.Resource	DEBUG	mesg: GET fail 401 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/info/collections
+1467781518720	Sync.Resource	DEBUG	GET fail 401 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/info/collections
+1467781518720	Sync.Service	INFO	Logging out
+1467781518722	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1467781518723	Sync.ErrorHandler	INFO	Got 401 response; resetting clusterURL.
+1467781518723	Sync.ErrorHandler	DEBUG	New mid-sync 401 failure. Making a note.
+1467781518724	Sync.ErrorHandler	INFO	Attempting to schedule another sync.
+1467781518726	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

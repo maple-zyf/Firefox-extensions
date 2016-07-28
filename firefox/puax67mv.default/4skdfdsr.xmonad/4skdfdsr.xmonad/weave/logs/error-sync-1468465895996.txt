@@ -1,0 +1,61 @@
+1468465889715	Sync.Service	INFO	Loading Weave 1.47.0
+1468465889717	Sync.Engine.Clients	DEBUG	Engine initialized
+1468465889718	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1468465889724	Sync.Engine.Bookmarks	DEBUG	Engine initialized
+1468465889728	Sync.Engine.Forms	DEBUG	Engine initialized
+1468465889732	Sync.Engine.History	DEBUG	Engine initialized
+1468465889738	Sync.Engine.Passwords	DEBUG	Engine initialized
+1468465889741	Sync.Engine.Prefs	DEBUG	Engine initialized
+1468465889744	Sync.Engine.Tabs	DEBUG	Engine initialized
+1468465889745	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1468465889751	Sync.Engine.Addons	DEBUG	Engine initialized
+1468465889753	Sync.Service	INFO	Mozilla/5.0 (X11; Linux i686; rv:45.0) Gecko/20100101 Firefox/45.0
+1468465889756	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1468465889757	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465889757	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/
+1468465889757	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465889757	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1468465889758	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1468465889759	Sync.Tracker.History	INFO	Adding Places observer.
+1468465889803	browserwindow.syncui	DEBUG	observed: weave:service:ready
+1468465889807	Sync.Engine.pan	DEBUG	Engine initialized
+1468465889808	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465889810	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1468465889812	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1468465889812	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1468465893819	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465893828	Sync.Service	DEBUG	User-Agent: Firefox/45.2.0 FxSync/1.47.0.20160607223741.
+1468465893829	Sync.Service	INFO	Starting sync at 2016-07-14 11:11:33
+1468465893829	Sync.Service	DEBUG	In sync: should login.
+1468465893829	browserwindow.syncui	DEBUG	observed: weave:service:login:start
+1468465893830	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465893830	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465893831	Sync.Service	INFO	Logging in the user.
+1468465893833	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1468465893833	FirefoxAccounts	DEBUG	already verified
+1468465893834	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1468465893835	Sync.BrowserIDManager	INFO	Starting fetch for key bundle.
+1468465893835	FirefoxAccounts	DEBUG	already verified
+1468465893835	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1468465893836	FirefoxAccounts	DEBUG	enter getAssertion()
+1468465893846	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1468465893849	FirefoxAccounts	DEBUG	got keyPair
+1468465893849	FirefoxAccounts	DEBUG	getCertificateSigned: true true
+1468465894724	Hawk	DEBUG	(Response) /certificate/sign: code: 200 - Status text: OK
+1468465894724	Sync.RESTResponse	TRACE	Processing response headers.
+1468465894725	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -3725
+1468465894726	FirefoxAccounts	DEBUG	getCertificate got a new one: true
+1468465894726	FirefoxAccounts	DEBUG	_updateAccountData with items: ["keyPair","cert"]
+1468465894727	FirefoxAccounts	DEBUG	getAssertionFromCert
+1468465894728	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","oauthTokens"]
+1468465894728	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","oauthTokens"]
+1468465894762	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1468465894763	Sync.BrowserIDManager	DEBUG	Getting a token
+1468465894764	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1468465894782	FirefoxAccounts	TRACE	finished write of json user data - took: 53
+1468465894782	FirefoxAccounts	DEBUG	writing secure storage: ["customizeSync","kA","kB"]
+1468465894783	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1468465894790	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1468465895994	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1468465895995	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1468465895996	Sync.ErrorHandler	ERROR	Sync encountered a login error

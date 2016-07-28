@@ -1,0 +1,29 @@
+1447942228085	Sync.ErrorHandler	DEBUG	Flushing file log.
+1447942228087	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})
+1447942228090	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1447942228090	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1447942228090	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1447942228090	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1447942228090	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1447942228090	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1447942228159	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1447078228159
+1447942228161	Sync.ErrorHandler	DEBUG	Done deleting files.
+1447942231302	Sync.Resource	DEBUG	mesg: GET fail 401 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/info/collections
+1447942231302	Sync.Resource	DEBUG	GET fail 401 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/info/collections
+1447942231302	Sync.Service	WARN	401: login failed.
+1447942231303	Sync.BrowserIDManager	DEBUG	_findCluster found existing clusterURL, so discarding the current token
+1447942231303	Sync.BrowserIDManager	INFO	Fetching assertion and token from: https://token.services.mozilla.com/1.0/sync/1.5
+1447942231303	FirefoxAccounts	DEBUG	already verified
+1447942231303	Sync.BrowserIDManager	DEBUG	Getting an assertion
+1447942231303	FirefoxAccounts	DEBUG	enter getAssertion()
+1447942231304	FirefoxAccounts	DEBUG	getKeyPair: already have a keyPair
+1447942231304	FirefoxAccounts	DEBUG	 getCertificate already had one
+1447942231305	FirefoxAccounts	DEBUG	getAssertionFromCert
+1447942231306	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1447942231307	Sync.BrowserIDManager	DEBUG	Getting a token
+1447942234593	Sync.BrowserIDManager	DEBUG	Successfully got a sync token
+1447942234593	Sync.BrowserIDManager	DEBUG	_findCluster returning https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/
+1447942234593	Sync.Service	DEBUG	Cluster value = https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/
+1447942234593	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.account
+1447942234594	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1447942234594	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.

@@ -1,0 +1,28 @@
+1468459809603	Sync.LogManager	DEBUG	Flushing file log
+1468459809603	Sync.LogManager	TRACE	Beginning stream copy to error-sync-1468459809603.txt: 1468459809603
+1468459809606	Sync.Service	DEBUG	User-Agent: Iceweasel/38.8.0 FxSync/1.40.0.20160426225641.
+1468459809606	Sync.Service	INFO	Starting sync at 2016-07-14 09:30:09
+1468459809606	Sync.Service	DEBUG	In sync: should login.
+1468459809607	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => success.status_ok
+1468459809607	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468459809608	Sync.Service	INFO	Logging in the user.
+1468459809608	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1468459809614	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1468459809615	FirefoxAccounts	DEBUG	already verified
+1468459809615	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1468459809616	FirefoxAccounts	DEBUG	enter getAssertion()
+1468459809673	FirefoxAccounts	DEBUG	getKeyPair: already have a keyPair
+1468459809673	FirefoxAccounts	DEBUG	 getCertificate already had one
+1468459809673	FirefoxAccounts	DEBUG	getAssertionFromCert
+1468459809678	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1468459809678	Sync.BrowserIDManager	DEBUG	Getting a token
+1468459809679	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1468459809684	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}}) (resource://gre/modules/services-common/tokenserverclient.js:36:35) JS Stack trace: @tokenserverclient.js:36:36 < @browserid_identity.js:14:1 < @status.js:15:1 < SyncServiceObserver.init@sync.js:76:62 < @sync.js:485:1 < require@bootstrap.js:140:7 < @main.js:32:1 < require@bootstrap.js:140:7 < startup@bootstrap.js:24:3 < XPI_callBootstrapMethod@XPIProvider.jsm:4453:9 < XPI_startup@XPIProvider.jsm:2168:13 < callProvider@AddonManager.jsm:208:12 < _startProvider@AddonManager.jsm:794:5 < AMI_startup@AddonManager.jsm:962:9 < AMP_startup@AddonManager.jsm:2626:5 < AMC_observe@addonManager.js:58:7
+1468459809685	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1468459809685	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1468459809699	Sync.BrowserIDManager	INFO	Failed to fetch the cluster URL: TokenServerClientNetworkError({"error":{}}) (resource://gre/modules/services-common/tokenserverclient.js:36:35) JS Stack trace: @tokenserverclient.js:36:36 < @browserid_identity.js:14:1 < @status.js:15:1 < SyncServiceObserver.init@sync.js:76:62 < @sync.js:485:1 < require@bootstrap.js:140:7 < @main.js:32:1 < require@bootstrap.js:140:7 < startup@bootstrap.js:24:3 < XPI_callBootstrapMethod@XPIProvider.jsm:4453:9 < XPI_startup@XPIProvider.jsm:2168:13 < callProvider@AddonManager.jsm:208:12 < _startProvider@AddonManager.jsm:794:5 < AMI_startup@AddonManager.jsm:962:9 < AMP_startup@AddonManager.jsm:2626:5 < AMC_observe@addonManager.js:58:7
+1468459809700	Sync.Service	DEBUG	verifyLogin failed: TokenServerClientNetworkError({"error":{}}) (resource://gre/modules/services-common/tokenserverclient.js:36:35) JS Stack trace: @tokenserverclient.js:36:36 < @browserid_identity.js:14:1 < @status.js:15:1 < SyncServiceObserver.init@sync.js:76:62 < @sync.js:485:1 < require@bootstrap.js:140:7 < @main.js:32:1 < require@bootstrap.js:140:7 < startup@bootstrap.js:24:3 < XPI_callBootstrapMethod@XPIProvider.jsm:4453:9 < XPI_startup@XPIProvider.jsm:2168:13 < callProvider@AddonManager.jsm:208:12 < _startProvider@AddonManager.jsm:794:5 < AMI_startup@AddonManager.jsm:962:9 < AMP_startup@AddonManager.jsm:2626:5 < AMC_observe@addonManager.js:58:7
+1468459809700	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1468459809700	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1468459809700	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1468459809701	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

@@ -1,0 +1,98 @@
+1468465908720	Sync.Service	INFO	Loading Weave 1.47.0
+1468465908724	Sync.Engine.Clients	DEBUG	Engine initialized
+1468465908726	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1468465908738	Sync.Engine.Bookmarks	DEBUG	Engine initialized
+1468465908744	Sync.Engine.Forms	DEBUG	Engine initialized
+1468465908751	Sync.Engine.History	DEBUG	Engine initialized
+1468465908759	Sync.Engine.Passwords	DEBUG	Engine initialized
+1468465908764	Sync.Engine.Prefs	DEBUG	Engine initialized
+1468465908769	Sync.Engine.Tabs	DEBUG	Engine initialized
+1468465908771	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1468465908779	Sync.Engine.Addons	DEBUG	Engine initialized
+1468465908781	Sync.Service	INFO	Mozilla/5.0 (X11; Linux i686; rv:45.0) Gecko/20100101 Firefox/45.0
+1468465908786	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1468465908787	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465908788	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/
+1468465908788	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465908788	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1468465908789	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1468465908790	Sync.Tracker.History	INFO	Adding Places observer.
+1468465908799	browserwindow.syncui	DEBUG	observed: weave:service:ready
+1468465908803	Sync.Engine.pan	DEBUG	Engine initialized
+1468465908805	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465908808	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1468465908810	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1468465908811	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1468465912806	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465912807	Sync.Service	DEBUG	User-Agent: Firefox/45.2.0 FxSync/1.47.0.20160607223741.
+1468465912808	Sync.Service	INFO	Starting sync at 2016-07-14 11:11:52
+1468465912809	Sync.Service	DEBUG	In sync: should login.
+1468465912810	browserwindow.syncui	DEBUG	observed: weave:service:login:start
+1468465912811	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465912812	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465912812	Sync.Service	INFO	Logging in the user.
+1468465912821	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1468465912821	FirefoxAccounts	DEBUG	already verified
+1468465912822	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1468465912825	Sync.BrowserIDManager	INFO	Starting fetch for key bundle.
+1468465912826	FirefoxAccounts	DEBUG	already verified
+1468465912827	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1468465912828	FirefoxAccounts	DEBUG	enter getAssertion()
+1468465912848	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1468465912854	FirefoxAccounts	DEBUG	got keyPair
+1468465912854	FirefoxAccounts	DEBUG	getCertificateSigned: true true
+1468465913642	Hawk	DEBUG	(Response) /certificate/sign: code: 200 - Status text: OK
+1468465913642	Sync.RESTResponse	TRACE	Processing response headers.
+1468465913643	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -3643
+1468465913644	FirefoxAccounts	DEBUG	getCertificate got a new one: true
+1468465913645	FirefoxAccounts	DEBUG	_updateAccountData with items: ["keyPair","cert"]
+1468465913646	FirefoxAccounts	DEBUG	getAssertionFromCert
+1468465913647	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","oauthTokens"]
+1468465913647	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","oauthTokens"]
+1468465913651	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1468465913652	Sync.BrowserIDManager	DEBUG	Getting a token
+1468465913653	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1468465913668	FirefoxAccounts	TRACE	finished write of json user data - took: 20
+1468465913669	FirefoxAccounts	DEBUG	writing secure storage: ["customizeSync","kA","kB"]
+1468465913669	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1468465913682	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1468465914661	Common.TokenServerClient	DEBUG	Got token response: 200
+1468465914661	Sync.RESTResponse	TRACE	Processing response headers.
+1468465914662	Common.TokenServerClient	DEBUG	Successful token response
+1468465914662	Sync.BrowserIDManager	DEBUG	Successfully got a sync token
+1468465914663	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1468465914663	Sync.BrowserIDManager	INFO	Background fetch for key bundle done
+1468465914663	Sync.Status	DEBUG	Status.login: success.login => success.login
+1468465914663	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468465914664	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/
+1468465914664	Sync.Service	INFO	User logged in successfully - verifying login.
+1468465914664	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1468465914665	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1468465914667	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1468465915558	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/info/collections
+1468465915558	Sync.Resource	DEBUG	GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/info/collections
+1468465915558	Sync.Service	DEBUG	Fetching global metadata record
+1468465915558	Sync.RecordManager	TRACE	Importing record: https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/storage/meta/global
+1468465915559	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1468465915789	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/storage/meta/global
+1468465915789	Sync.Resource	DEBUG	GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/storage/meta/global
+1468465915790	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1463095203.02
+1468465915790	Sync.RecordManager	TRACE	Importing record: https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/storage/meta/global
+1468465915792	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1468465916026	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/storage/meta/global
+1468465916027	Sync.Resource	DEBUG	GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/42957076/storage/meta/global
+1468465916027	Sync.Service	DEBUG	Weave Version: 1.47.0 Local Storage: 5 Remote Storage: 5
+1468465916028	Sync.Service	INFO	Sync key is up-to-date: no need to upgrade.
+1468465916028	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1468465916029	Sync.Service	INFO	Testing info/collections: {"passwords":1468213291.53,"tabs":1468465862.22,"clients":1468465861.61,"crypto":1458911386.09,"forms":1468383425.14,"meta":1463095203.02,"prefs":1468465456.12,"bookmarks":1468464774.94,"addons":1468462933.45,"pan":1465645134.05,"history":1468465862.6}
+1468465916029	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1468465916029	Sync.Service	INFO	collection keys reports that a key update is needed.
+1468465916031	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1468465916642	Sync.Service	WARN	Got exception "[Exception... "App. Quitting"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://services-common/async.js :: checkAppReady/onQuitApplication/Async.checkAppReady :: line 126"  data: no]" fetching cryptoKeys.
+1468465916642	Sync.Status	DEBUG	Status.login: success.login => error.login.failed
+1468465916642	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1468465916643	Sync.Service	WARN	Failed to fetch symmetric keys. Failing remote setup.
+1468465916643	Sync.Service	WARN	Remote setup failed.
+1468465916643	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1468465916645	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1468465916645	Sync.ErrorHandler	ERROR	Sync encountered a login error

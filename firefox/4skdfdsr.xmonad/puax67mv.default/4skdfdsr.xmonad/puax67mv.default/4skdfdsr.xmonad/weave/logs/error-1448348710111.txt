@@ -1,0 +1,117 @@
+1448348380205	Sync.ErrorHandler	DEBUG	Flushing file log.
+1448348380206	Sync.Status	DEBUG	Status.sync: error.sync.prolonged_failure => error.sync.prolonged_failure
+1448348380206	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1448348380207	Sync.Service	DEBUG	Exception: Aborting sync: failed to get collections. No traceback available
+1448348380207	Sync.Service	DEBUG	User-Agent: Iceweasel/31.6.0 FxSync/1.33.0.20150401055643.
+1448348380207	Sync.Service	INFO	Starting sync at 2015-11-24 14:59:40
+1448348380207	Sync.Service	DEBUG	In sync: should login.
+1448348380207	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1448348380207	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1448348380207	Sync.Status	DEBUG	Status.service: error.sync.failed => error.login.failed
+1448348380208	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1448348380208	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1448348380208	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1448348380208	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1448348380208	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1448348380208	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1448348380209	Sync.Service	INFO	Logging in the user.
+1448348380210	Sync.BrowserIDManager	INFO	Fetching assertion and token from: https://token.services.mozilla.com/1.0/sync/1.5
+1448348380210	FirefoxAccounts	DEBUG	already verified
+1448348380210	Sync.BrowserIDManager	DEBUG	Getting an assertion
+1448348380211	FirefoxAccounts	DEBUG	enter getAssertion()
+1448348380212	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1447484380212
+1448348380212	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1448348380213	FirefoxAccounts	DEBUG	getKeyPair: already have a keyPair
+1448348380213	FirefoxAccounts	DEBUG	 getCertificate already had one
+1448348380213	FirefoxAccounts	DEBUG	getAssertionFromCert
+1448348380215	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1448348380216	Sync.BrowserIDManager	DEBUG	Getting a token
+1448348387399	Sync.BrowserIDManager	DEBUG	Successfully got a sync token
+1448348387399	Sync.BrowserIDManager	DEBUG	_findCluster returning https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/
+1448348387399	Sync.Service	DEBUG	Cluster value = https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/
+1448348387400	Sync.Service	DEBUG	Setting cluster to https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/
+1448348387400	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/
+1448348387402	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1448348391056	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/info/collections
+1448348391056	Sync.Resource	DEBUG	GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/info/collections
+1448348391056	Sync.Service	DEBUG	Fetching global metadata record
+1448348391056	Sync.Service	DEBUG	Weave Version: 1.33.0 Local Storage: 5 Remote Storage: 5
+1448348391057	Sync.Service	INFO	Sync key is up-to-date: no need to upgrade.
+1448348391057	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1448348391058	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1448348392173	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/info/collections
+1448348392173	Sync.Resource	DEBUG	GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/info/collections
+1448348392174	Sync.Service	INFO	Testing info/collections: {"passwords":1447152801.92,"tabs":1448344758.98,"clients":1448344369.94,"crypto":1433465307.8,"forms":1447152795.83,"meta":1433465313.2,"prefs":1443179016.91,"bookmarks":1446473777.27,"addons":1443110140.82,"history":1447212244.19}
+1448348392174	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1433465307.8
+1448348392174	Sync.Status	DEBUG	Status.login: error.login.reason.network => success.login
+1448348392174	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1448348392175	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1448348392175	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1448348392175	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1448348392176	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1448348392177	Sync.Status	INFO	Resetting Status.
+1448348392177	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1448348392178	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1448348394114	Sync.Resource	DEBUG	mesg: GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/info/collections
+1448348394114	Sync.Resource	DEBUG	GET success 200 https://sync-220-us-west-2.sync.services.mozilla.com/1.5/23370112/info/collections
+1448348394115	Sync.Service	DEBUG	Fetching global metadata record
+1448348394116	Sync.Service	DEBUG	Weave Version: 1.33.0 Local Storage: 5 Remote Storage: 5
+1448348394116	Sync.Service	INFO	Sync key is up-to-date: no need to upgrade.
+1448348394116	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1448348394116	Sync.Service	INFO	Testing info/collections: {"passwords":1447152801.92,"tabs":1448344758.98,"clients":1448344369.94,"crypto":1433465307.8,"forms":1447152795.83,"meta":1433465313.2,"prefs":1443179016.91,"bookmarks":1446473777.27,"addons":1443110140.82,"history":1447212244.19}
+1448348394116	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1433465307.8
+1448348394116	Sync.Synchronizer	DEBUG	Refreshing client list.
+1448348394117	Sync.Engine.Clients	INFO	0 outgoing items pre-reconciliation
+1448348394119	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1448348394120	Sync.Synchronizer	INFO	Updating enabled engines: 1 clients.
+1448348394124	Sync.Engine.Bookmarks	INFO	0 outgoing items pre-reconciliation
+1448348394126	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1448348394130	Sync.Engine.Forms	INFO	0 outgoing items pre-reconciliation
+1448348394132	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1448348394134	Sync.Engine.History	INFO	125 outgoing items pre-reconciliation
+1448348394135	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1448348395118	Sync.Tracker.Clients	DEBUG	Saving changed IDs to clients
+1448348395124	Sync.Tracker.Bookmarks	DEBUG	Saving changed IDs to bookmarks
+1448348395131	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1448348395134	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1448348410006	Sync.Engine.History	WARN	DATA LOSS: Both local and remote changes to record: v3oqueeffsXu
+1448348710081	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1448348710081	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1448348710082	Sync.Status	DEBUG	Status for engine history: error.engine.reason.unknown_fail
+1448348710082	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1448348710082	Sync.ErrorHandler	DEBUG	history failed: Error: Aborting due to channel inactivity. (resource://services-sync/resource.js:393:10) JS Stack trace: Res_get@resource.js:413:5 < SyncEngine.prototype._processIncoming@engines.js:1069:11 < SyncEngine.prototype._sync@engines.js:1481:7 < WrappedNotify@util.js:141:15 < Engine.prototype.sync@engines.js:655:5 < _syncEngine@enginesync.js:199:7 < sync@enginesync.js:149:13 < onNotify@service.js:1254:7 < WrappedNotify@util.js:141:15 < WrappedLock@util.js:96:9 < _lockedSync@service.js:1248:1 < sync/<@service.js:1239:7 < WrappedCatch@util.js:70:9 < sync@service.js:1227:5
+1448348710083	Sync.Engine.Passwords	INFO	0 outgoing items pre-reconciliation
+1448348710085	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1448348710086	Sync.Engine.Prefs	INFO	0 outgoing items pre-reconciliation
+1448348710087	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1448348710088	Sync.Engine.Tabs	INFO	0 outgoing items pre-reconciliation
+1448348710089	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1448348710090	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1448348710090	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: autoproxy@autoproxy.org
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {DDC359D1-844A-42a7-9AA1-88A850A938A8}
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: thefoxonlybetter@quicksaver
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: vimperator@mozdev.org
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: pentadactyl@dactyl.googlecode.com
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: fillforms@symental.com
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {5556F97E-11A5-46b0-9082-32AD74AAA920}
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: foxyproxy@eric.h.jung
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: hidecaptionplus-dp@dummy.addons.mozilla.org
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: https-everywhere-eff@eff.org
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: helper-sig@savefrom.net
+1448348710094	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: 26979@personas.mozilla.org
+1448348710095	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: 60272@personas.mozilla.org
+1448348710095	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {12b61fb1-c5d3-1ec9-b89c-692a67f2a6bc}
+1448348710098	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {d461bff3-f642-80f9-5196-92a6c19eae1c}
+1448348710098	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: {81483a79-4662-220f-c0b3-08db1c26b031}
+1448348710099	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1448348710106	Sync.Engine.Addons	INFO	0 outgoing items pre-reconciliation
+1448348710107	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1448348710108	Sync.Synchronizer	INFO	Sync completed at 2015-11-24 15:05:10 after 317.93 secs.
+1448348710109	Sync.Declined	DEBUG	Handling remote declined: []
+1448348710109	Sync.Declined	DEBUG	Handling local declined: []
+1448348710109	Sync.Declined	DEBUG	Declined changed? false
+1448348710110	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1448348710110	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1448348710111	Sync.ErrorHandler	DEBUG	Some engines did not sync correctly.

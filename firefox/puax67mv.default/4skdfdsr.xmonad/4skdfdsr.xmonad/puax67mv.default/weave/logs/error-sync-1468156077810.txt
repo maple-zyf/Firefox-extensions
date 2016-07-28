@@ -1,0 +1,21 @@
+1468133390359	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1468136989916	Sync.Service	DEBUG	User-Agent: Iceweasel/38.8.0 FxSync/1.40.0.20160426225641.
+1468136989916	Sync.Service	INFO	Starting sync at 2016-07-10 15:49:49
+1468136989917	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1468136989918	Sync.Status	INFO	Resetting Status.
+1468136989918	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1468136989920	FirefoxAccounts	DEBUG	already verified
+1468136989921	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1468136989921	FirefoxAccounts	DEBUG	enter getAssertion()
+1468136989927	FirefoxAccounts	DEBUG	getKeyPair: already have a keyPair
+1468136989928	FirefoxAccounts	DEBUG	 getCertificate already had one
+1468136989928	FirefoxAccounts	DEBUG	getAssertionFromCert
+1468136989930	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1468136989931	Sync.BrowserIDManager	DEBUG	Getting a token
+1468136989932	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1468156001395	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1468156002252	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1468156006219	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1468156011898	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1468156077803	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: [Exception... "App. Quitting"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://services-common/async.js :: checkAppReady/onQuitApplication/Async.checkAppReady :: line 126"  data: no] Stack trace: checkAppReady/onQuitApplication/Async.checkAppReady()@resource://services-common/async.js:126 < waitForSyncCallback()@resource://services-common/async.js:101 < makeSpinningCallback/callback.wait()@resource://services-common/async.js:145 < this.BrowserIDManager.prototype._getAuthenticationHeader()@resource://gre/modules/services-sync/browserid_identity.js:656 < Res__createRequest()@resource://services-sync/resource.js:175 < _doRequest()@resource://services-sync/resource.js:200 < Res__request()@resource://services-sync/resource.js:404 < Res_get()@resource://services-sync/resource.js:429 < Sync11Service.prototype._fetchInfo()@resource://gre/modules/services-sync/service.js:553 < sync()@resource://services-sync/stages/enginesync.js:77 < onNotify()@resource://gre/modules/services-sync/service.js:1295 < WrappedNotify()@resource://services-sync/util.js:148 < WrappedLock()@resource://services-sync/util.js:103 < _lockedSync()@resource://gre/modules/services-sync/service.js:1285 < sync/<()@resource://gre/modules/services-sync/service.js:1277 < WrappedCatch()@resource://services-sync/util.js:77 < sync()@resource://gre/modules/services-sync/service.js:1265 < <file:unknown>
+1468156077810	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

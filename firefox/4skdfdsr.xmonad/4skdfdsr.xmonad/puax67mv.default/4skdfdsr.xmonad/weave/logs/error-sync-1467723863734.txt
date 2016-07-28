@@ -1,0 +1,38 @@
+1467719963205	Sync.Tracker.Addons	DEBUG	Saving changed IDs to addons
+1467719963208	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1467719963210	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467720230165	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467720240944	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467720265239	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467720308971	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467720313199	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467720338125	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467722324582	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467722328743	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467722338664	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467722353609	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467722370764	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467722727567	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467722735028	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467722736791	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1467723562680	Sync.Service	DEBUG	User-Agent: Iceweasel/38.8.0 FxSync/1.40.0.20160426225641.
+1467723562680	Sync.Service	INFO	Starting sync at 2016-07-05 20:59:22
+1467723562683	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1467723562685	Sync.Status	INFO	Resetting Status.
+1467723562685	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1467723562687	FirefoxAccounts	DEBUG	already verified
+1467723562689	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1467723562690	FirefoxAccounts	DEBUG	enter getAssertion()
+1467723562699	FirefoxAccounts	DEBUG	getKeyPair: already have a keyPair
+1467723562700	FirefoxAccounts	DEBUG	 getCertificate already had one
+1467723562700	FirefoxAccounts	DEBUG	getAssertionFromCert
+1467723562703	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1467723562703	Sync.BrowserIDManager	DEBUG	Getting a token
+1467723562705	Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1467723563726	Common.TokenServerClient	DEBUG	Got token response: 200
+1467723563727	Sync.RESTResponse	TRACE	Processing response headers.
+1467723563727	Common.TokenServerClient	DEBUG	Successful token response
+1467723563727	Sync.BrowserIDManager	DEBUG	Successfully got a sync token
+1467723863731	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1467723863731	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1467723863733	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
